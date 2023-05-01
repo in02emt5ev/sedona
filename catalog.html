@@ -41,9 +41,41 @@
       <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="filter-block">
           <legend>Инфраструктура:</legend>
+
+          <label class="check">
+            <input class="check__box" type="checkbox" name="pool" checked>
+            <span class="check__icon"></span>
+            Бассеин
+          </label>
+          <label class="check">
+            <input class="check__box" type="checkbox" name="parking" checked>
+            <span class="check__icon"></span>
+            Парковка
+          </label>
+          <label class="check">
+            <input class="check__box" type="checkbox" name="wi-fi">
+            <span class="check__icon"></span>
+            Wi-Fi
+          </label>
         </fieldset>
         <fieldset class="filter-block">
           <legend>Тип жилья:</legend>
+
+          <label class="check check_radio">
+            <input class="check__box" type="radio" name="type" value="hotel" checked>
+            <span class="check__icon"></span>
+            Отель
+          </label>
+          <label class="check check_radio">
+            <input class="check__box" type="radio" name="type" value="motel">
+            <span class="check__icon"></span>
+            Мотель
+          </label>
+          <label class="check check_radio">
+            <input class="check__box" type="radio" name="type" value="apart">
+            <span class="check__icon"></span>
+            Апартаменты
+          </label>
         </fieldset>
         <fieldset class="filter-block">
           <legend>Стоимость, ₽:</legend>
