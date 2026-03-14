@@ -69,3 +69,13 @@ body {
   height: 352;
   margin: 0 auto;
 }
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "PTSans";
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
