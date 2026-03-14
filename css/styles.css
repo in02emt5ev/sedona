@@ -27,3 +27,13 @@ body {
   font-family: "PTSans", sans-serif;
   color: #333333;
 }
+
+.logo {
+  display: inline-block;
+}
+
+.logo__image {
+  display: block;
+  width: 139px;
+  height: 70px;
+}
