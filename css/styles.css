@@ -37,3 +37,12 @@ body {
   width: 139px;
   height: 70px;
 }
+
+.nav-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "PTSans", sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
