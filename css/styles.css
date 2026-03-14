@@ -79,3 +79,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0;
 }
+
+.description {
+  font-size: 22px;
+  line-height: 36px;
+}
