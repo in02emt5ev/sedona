@@ -95,3 +95,9 @@ body {
 
   list-style: none;
 }
+
+.feature {
+  color: #ffffff;
+
+  background-color: #83b3d3;
+}
