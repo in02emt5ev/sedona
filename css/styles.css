@@ -58,3 +58,14 @@ body {
 
   background-color: #756257;
 }
+
+.hero {
+  background-color: #6b8e9e;
+}
+
+.hero__image {
+  display: block;
+  width: 458;
+  height: 352;
+  margin: 0 auto;
+}
