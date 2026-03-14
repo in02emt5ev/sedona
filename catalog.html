@@ -144,7 +144,7 @@
         Найдено гостиниц: <span class="search-result__count">38</span>
       </div>
 
-      <form class="sort-form" action="https://echo.htmlacademy.ru/" method="post">
+      <form class="sort-form" id="sort" action="https://echo.htmlacademy.ru/" method="post">
         <label class="sort-order">
           <span class="visually-hidden">Порядок сортировки</span>
           <select name="sort-order">
@@ -225,6 +225,16 @@
         <li><a class="pagination__link" href="#">...</a></li>
         <li><a class="pagination__link" href="#">10</a></li>
       </ul>
+
+      <div class="hotels-on-page">
+        Гостиниц на странице:
+        <select name="hotels-on-page" form="sort">
+          <option value="4" selected>4</option>
+          <option value="6">6</option>
+          <option value="8">8</option>
+          <option value="10">10</option>
+        </select>
+      </div>
     </main>
 
     <footer class="page-footer">
