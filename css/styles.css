@@ -108,3 +108,13 @@ body {
 
   background-color: #83b3d3;
 }
+
+.subscribe {
+  text-align: center;
+}
+
+.subscribe--index {
+  color: #ffffff;
+
+  background-color: #4c7888;
+}
