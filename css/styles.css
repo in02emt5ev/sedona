@@ -59,6 +59,10 @@ body {
   background-color: #756257;
 }
 
+.page-main--index {
+  text-align: center;
+}
+
 .hero {
   background-color: #6b8e9e;
 }
