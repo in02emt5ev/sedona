@@ -49,105 +49,107 @@
     </header>
 
     <main class="page-main">
-      <h1 class="title title--page">Гостиницы Седоны</h1>
+      <div class="catalog-top">
+        <h1 class="title title--page">Гостиницы Седоны</h1>
 
-      <ul class="crumbs">
-        <li>
-          <a class="crumb-link" href="index.html">
-            <span class="visually-hidden">На главную</span>
-          </a>
-        </li>
-        <li>
-          <a class="crumb-link">Гостиницы</a>
-        </li>
-      </ul>
+        <ul class="crumbs">
+          <li>
+            <a class="crumb-link" href="index.html">
+              <span class="visually-hidden">На главную</span>
+            </a>
+          </li>
+          <li>
+            <a class="crumb-link">Гостиницы</a>
+          </li>
+        </ul>
 
-      <h2 class="visually-hidden">Фильтр</h2>
+        <h2 class="visually-hidden">Фильтр</h2>
 
-      <form class="filter-form" action="https://echo.htmlacademy.ru/" method="post">
-        <fieldset class="filter-form__group">
-          <legend>Инфраструктура:</legend>
+        <form class="filter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <fieldset class="filter-form__group">
+            <legend>Инфраструктура:</legend>
 
-          <ul class="filter-form__list">
-            <li>
-              <label class="check">
-                <input class="check__input" name="features" type="checkbox" value="pool" checked>
-                <span class="check__box"></span>
-                Бассейн
-              </label>
-            </li>
-            <li>
-              <label class="check">
-                <input class="check__input" name="features" type="checkbox" value="parking" checked>
-                <span class="check__box"></span>
-                Парковка
-              </label>
-            </li>
-            <li>
-              <label class="check">
-                <input class="check__input" name="features" type="checkbox" value="wi-fi">
-                <span class="check__box"></span>
-                Wi-Fi
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-        <fieldset class="filter-form__group">
-          <legend>Тип жилья:</legend>
+            <ul class="filter-form__list">
+              <li>
+                <label class="check">
+                  <input class="check__input" name="features" type="checkbox" value="pool" checked>
+                  <span class="check__box"></span>
+                  Бассейн
+                </label>
+              </li>
+              <li>
+                <label class="check">
+                  <input class="check__input" name="features" type="checkbox" value="parking" checked>
+                  <span class="check__box"></span>
+                  Парковка
+                </label>
+              </li>
+              <li>
+                <label class="check">
+                  <input class="check__input" name="features" type="checkbox" value="wi-fi">
+                  <span class="check__box"></span>
+                  Wi-Fi
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter-form__group">
+            <legend>Тип жилья:</legend>
 
-          <ul class="filter-form__list">
-            <li>
-              <label class="check">
-                <input class="check__input" name="type" type="radio" value="hotel" checked>
-                <span class="check__box"></span>
-                Гостиница
-              </label>
-            </li>
-            <li>
-              <label class="check">
-                <input class="check__input" name="type" type="radio" value="motel">
-                <span class="check__box"></span>
-                Мотель
-              </label>
-            </li>
-            <li>
-              <label class="check">
-                <input class="check__input" name="type" type="radio" value="apart">
-                <span class="check__box"></span>
-                Апартаменты
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-        <fieldset class="filter-form__group">
-          <legend>Стоимость, ₽:</legend>
+            <ul class="filter-form__list">
+              <li>
+                <label class="check">
+                  <input class="check__input" name="type" type="radio" value="hotel" checked>
+                  <span class="check__box"></span>
+                  Гостиница
+                </label>
+              </li>
+              <li>
+                <label class="check">
+                  <input class="check__input" name="type" type="radio" value="motel">
+                  <span class="check__box"></span>
+                  Мотель
+                </label>
+              </li>
+              <li>
+                <label class="check">
+                  <input class="check__input" name="type" type="radio" value="apart">
+                  <span class="check__box"></span>
+                  Апартаменты
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter-form__group">
+            <legend>Стоимость, ₽:</legend>
 
-          <div class="price-filter">
-            <div class="price-filter__fields">
-              <label class="price-filter__field">
-                от <input name="min-price" type="number" value="0" min="0" max="9000">
-              </label>
-              <label class="price-filter__field">
-                до <input name="max-price" type="number" value="9000" min="0" max="9000">
-              </label>
-            </div>
+            <div class="price-filter">
+              <div class="price-filter__fields">
+                <label class="price-filter__field">
+                  от <input name="min-price" type="number" value="0" min="0" max="9000">
+                </label>
+                <label class="price-filter__field">
+                  до <input name="max-price" type="number" value="9000" min="0" max="9000">
+                </label>
+              </div>
 
-            <div class="range">
-              <div class="range__bar">
-                <button class="range__button range__button--min" type="button">
-                  <span class="visually-hidden">Ручка минимальной цены</span>
-                </button>
-                <button class="range__button range__button--max" type="button">
-                  <span class="visually-hidden">Ручка максимальной цены</span>
-                </button>
+              <div class="range">
+                <div class="range__bar">
+                  <button class="range__button range__button--min" type="button">
+                    <span class="visually-hidden">Ручка минимальной цены</span>
+                  </button>
+                  <button class="range__button range__button--max" type="button">
+                    <span class="visually-hidden">Ручка максимальной цены</span>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        </fieldset>
+          </fieldset>
 
-        <button class="btn btn--filter-submit" type="submit">Применить</button>
-        <button class="filter-reset" type="reset">Сбросить</button>
-      </form>
+          <button class="btn btn--filter-submit" type="submit">Применить</button>
+          <button class="filter-reset" type="reset">Сбросить</button>
+        </form>
+      </div>
 
       <h2 class="visually-hidden">Сортировка</h2>
 
