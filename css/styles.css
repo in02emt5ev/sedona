@@ -91,6 +91,12 @@ body {
   text-transform: uppercase;
 }
 
+.title--page {
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+
 .description {
   font-size: 22px;
   line-height: 36px;
@@ -135,4 +141,8 @@ body {
   color: #ffffff;
 
   background-color: #4c7888;
+}
+
+.catalog-top .title {
+  color: #ffffff;
 }
