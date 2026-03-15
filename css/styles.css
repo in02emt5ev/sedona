@@ -103,10 +103,13 @@ body {
   list-style: none;
 }
 
-.feature {
-  color: #ffffff;
-
+.feature--pictorial {
   background-color: #83b3d3;
+}
+
+.feature--pictorial > .title,
+.feature--pictorial > p {
+  color: #ffffff;
 }
 
 .subscribe {
