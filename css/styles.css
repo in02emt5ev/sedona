@@ -146,3 +146,10 @@ body {
 .catalog-top .title {
   color: #ffffff;
 }
+
+.price-filter__field input {
+  font: inherit;
+  color: #ffffff;
+
+  background-color: transparent;
+}
