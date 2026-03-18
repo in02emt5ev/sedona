@@ -168,3 +168,10 @@ body {
   background-color: transparent;
   border: none;
 }
+
+.sort-order select {
+  font: inherit;
+
+  background-color: #ffffff;
+  border: none;
+}
