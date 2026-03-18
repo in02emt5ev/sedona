@@ -232,6 +232,13 @@ body {
   border-bottom-right-radius: 10px;
 }
 
+.social-links {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
 .phone {
   font-weight: 400;
   font-size: 40px;
