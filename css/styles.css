@@ -160,3 +160,11 @@ body {
 
   background-color: transparent;
 }
+
+.filter-reset {
+  font: inherit;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: none;
+}
