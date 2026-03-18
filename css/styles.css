@@ -118,6 +118,14 @@ body {
   list-style: none;
 }
 
+.features-list:not(.features-list--sub) > .feature:not(.feature--pictorial):nth-child(odd) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.features-list:not(.features-list--sub) > .feature:not(.feature--pictorial):nth-child(even) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
 .features-list--sub {
   background-color: #ffffff;
 }
