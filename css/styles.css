@@ -66,6 +66,9 @@ body {
 
 .hero {
   background-color: #6b8e9e;
+  background-image: url("../img/index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero__image {
