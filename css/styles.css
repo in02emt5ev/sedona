@@ -138,6 +138,39 @@ body {
   color: inherit;
 }
 
+.subscribe-form__field input {
+  font: inherit;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: #f2f2f2;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.subscribe-form__field input::placeholder {
+  font: inherit;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+
+  opacity: 0.6;
+}
+
+.subscribe-form__submit {
+  font: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+
+  background-color: #83b3d3;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 .phone {
   font-weight: 400;
   font-size: 40px;
