@@ -118,6 +118,14 @@ body {
   list-style: none;
 }
 
+.features-list--sub {
+  background-color: #ffffff;
+}
+
+.features-list--sub .feature:nth-child(odd) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
 .feature--pictorial {
   background-color: #83b3d3;
 }
