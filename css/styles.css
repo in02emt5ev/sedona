@@ -93,6 +93,9 @@ body {
 }
 
 .hero {
+  padding-top: 50px;
+  padding-bottom: 80px;
+
   background-color: #6b8e9e;
   background-image: url("../img/index-background.jpg");
   background-repeat: no-repeat;
