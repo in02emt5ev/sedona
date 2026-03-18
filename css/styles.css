@@ -135,6 +135,9 @@ body {
   color: #ffffff;
 
   background-color: #4c7888;
+  background-image: url("../img/background-subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .subscribe--index .title {
