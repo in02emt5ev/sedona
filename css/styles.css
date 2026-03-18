@@ -134,6 +134,10 @@ body {
   background-color: #4c7888;
 }
 
+.subscribe--index .title {
+  color: inherit;
+}
+
 .phone {
   font-weight: 400;
   font-size: 40px;
