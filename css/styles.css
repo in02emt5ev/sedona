@@ -233,3 +233,10 @@ body {
 
   background-color: #f2f2f2;
 }
+
+.hotels-on-page select {
+  font: inherit;
+
+  background-color: #ffffff;
+  border: none;
+}
