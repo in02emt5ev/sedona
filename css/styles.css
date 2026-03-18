@@ -147,6 +147,13 @@ body {
   color: #ffffff;
 }
 
+.crumb-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .price-filter__field input {
   font: inherit;
   color: #ffffff;
