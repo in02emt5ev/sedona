@@ -52,6 +52,20 @@ body {
   height: 70px;
 }
 
+.site-nav {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.user-nav {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
 .nav-link {
   font-weight: 700;
   font-size: 20px;
