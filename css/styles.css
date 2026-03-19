@@ -42,6 +42,12 @@ body {
   clip: rect(0 0 0 0);
 }
 
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .logo {
   display: inline-block;
 }
@@ -52,6 +58,10 @@ body {
   height: 70px;
 }
 
+.page-nav__logo {
+  margin-right: 30px;
+}
+
 .site-nav {
   margin: 0;
   padding: 0;
@@ -59,11 +69,18 @@ body {
   list-style: none;
 }
 
+.page-nav__site {
+  margin-right: auto;
+}
 .user-nav {
   margin: 0;
   padding: 0;
 
   list-style: none;
+}
+
+.page-nav__user {
+  margin-right: 20px;
 }
 
 .nav-link {
