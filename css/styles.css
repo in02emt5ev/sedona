@@ -45,7 +45,9 @@ body {
 .page-nav {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .logo {
