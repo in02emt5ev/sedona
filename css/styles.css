@@ -128,6 +128,10 @@ body {
   margin: 0 auto;
 }
 
+.page-main--index .hero {
+  margin-bottom: 60px;
+}
+
 .title {
   margin: 0;
 
@@ -158,11 +162,19 @@ body {
   text-transform: none;
 }
 
+.page-main--index .title {
+  margin-bottom: 30px;
+}
+
 .description {
   margin: 0;
 
   font-size: 22px;
   line-height: 36px;
+}
+
+.page-main--index .description {
+  margin-bottom: 80px;
 }
 
 .features-list {
