@@ -162,19 +162,11 @@ body {
   text-transform: none;
 }
 
-.page-main--index .title {
-  margin-bottom: 30px;
-}
-
 .description {
   margin: 0;
 
   font-size: 22px;
   line-height: 36px;
-}
-
-.page-main--index .description {
-  margin-bottom: 80px;
 }
 
 .features-list {
@@ -184,24 +176,16 @@ body {
   list-style: none;
 }
 
-.features-list:not(.features-list--sub) > .feature:not(.feature--pictorial):nth-child(odd) {
+.features-list > .feature:not(.feature--pictorial):nth-child(odd) {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.features-list:not(.features-list--sub) > .feature:not(.feature--pictorial):nth-child(even) {
+.features-list > .feature:not(.feature--pictorial):nth-child(even) {
   background-color: rgba(131, 179, 211, 0.2);
-}
-
-.features-list--sub {
-  background-color: #ffffff;
 }
 
 .feature p {
   margin: 0;
-}
-
-.features-list--sub .feature:nth-child(odd) {
-  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .feature--pictorial {
@@ -211,6 +195,23 @@ body {
 .feature--pictorial > .title,
 .feature--pictorial > p {
   color: #ffffff;
+}
+
+.subfeatures-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  background-color: #ffffff;
+}
+
+.subfeatures-list .subfeature:nth-child(odd) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.subfeature p {
+  margin: 0;
 }
 
 .subscribe {
