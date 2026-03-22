@@ -354,6 +354,12 @@ body {
   padding: 0;
 
   list-style: none;
+
+  background-color: #ffffff;
+}
+
+.subfeatures-list .subfeature:nth-child(odd) {
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .booking-prompt {
