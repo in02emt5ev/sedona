@@ -358,8 +358,27 @@ body {
   background-color: #ffffff;
 }
 
+.subfeature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding-top: 185px;
+  padding-bottom: 80px;
+
+  text-align: center;
+}
+
 .subfeatures-list .subfeature:nth-child(odd) {
   background-color: rgba(131, 179, 211, 0.12);
+}
+
+.subfeature__title {
+  margin-bottom: 20px;
+}
+
+.subfeature p {
+  width: 250px;
 }
 
 .booking-prompt {
