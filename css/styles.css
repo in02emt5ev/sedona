@@ -337,6 +337,15 @@ body {
   text-align: center;
 }
 
+.feature__title {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.feature p {
+  margin: 0;
+}
+
 .booking-prompt {
   text-align: center;
 }
